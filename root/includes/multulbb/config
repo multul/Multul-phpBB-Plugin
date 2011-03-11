@@ -1,3 +1,4 @@
 <?php
+$config_multul_status = ture; // Input "true" for activation Multul, "false" for deactivation, default if "true" 
 $config_multul_id = '';
 $config_multul_key = '';
