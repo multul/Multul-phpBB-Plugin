@@ -4,7 +4,7 @@ class Multul {
 
 	private $config = array();
 
-	private $js_src = 'http://multul.ru/media/js/im.js';
+        private $js_src = 'http://cdn.multul.ru/v1/js/im.js';
 
 	public function __construct(array $config = NULL) {
 		$this->config = array(

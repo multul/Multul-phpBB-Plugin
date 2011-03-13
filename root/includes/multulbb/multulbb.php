@@ -18,7 +18,7 @@ class MultulBB {
                 $config = self::get_config();
 
 		if ($user->data['is_registered'] && $user_id != $user->data['user_id'] && $config['multul_status']) {
-			return '<a href="javascript:;" onclick="multul.im.openContact(' . $user_id . ',\'' . $username . '\')"><img src="http://multul.ru/media/images/messenger/chats.gif" alt="" /></a><br>';
+			return '<a href="javascript:;" onclick="multul.im.openContact(' . $user_id . ',\'' . $username . '\')"><img src="http://cdn.multul.ru/v1/images/messenger/send_msg.png" alt="" /></a><br>';
 		} else {
 			return '';
 		}
