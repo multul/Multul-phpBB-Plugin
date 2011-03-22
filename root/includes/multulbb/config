@@ -1,4 +1,4 @@
 <?php
-$config_multul_status = true; // Input "true" for activation Multul, "false" for deactivation, default if "true" 
+$config_multul_status = true; // Input "true" for activation Multul, "false" for deactivation, default is "true" 
 $config_multul_id = '';
 $config_multul_key = '';
